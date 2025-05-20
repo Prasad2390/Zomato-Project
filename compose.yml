@@ -1,0 +1,8 @@
+---
+version: "3"
+services:
+ application:
+   image: prasa239/react:zomato
+   container_name: zomato-app
+   ports:
+     - "1234:8080"
